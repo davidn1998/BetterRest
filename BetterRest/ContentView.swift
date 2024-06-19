@@ -60,7 +60,7 @@ struct ContentView: View {
 				}
 				.padding(.top, 20)
 			}
-			.navigationTitle("BetterRest")
+			.navigationTitle("BetterRest 🌚")
 			.alert(alertTitle, isPresented: $showingAlert) {
 				Button("OK") {}
 			} message: {
